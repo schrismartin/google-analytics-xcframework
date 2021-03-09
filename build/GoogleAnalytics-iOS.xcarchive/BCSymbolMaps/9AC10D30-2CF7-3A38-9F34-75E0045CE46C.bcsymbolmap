@@ -1,0 +1,796 @@
+BCSymbolMap Version: 2.0
+Apple clang version 12.0.0 (clang-1200.0.32.29)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk
+iPhoneOS14.4.sdk
+/Users/schrismartin/Library/Developer/Xcode/DerivedData/GoogleAnalytics-ggzrsdtuojggfqeampytgyyliphp/Build/Intermediates.noindex/ArchiveIntermediates/GoogleAnalytics/IntermediateBuildFilesPath/GoogleAnalytics.build/Release-iphoneos/GoogleAnalytics.build/DerivedSources/GoogleAnalytics_vers.c
+/Users/schrismartin/workspace/eventbrite/GoogleAnalytics
+__OBJC_$_CATEGORY_GAI_$_Dummy
+/Users/schrismartin/workspace/eventbrite/GoogleAnalytics/GoogleAnalytics/GoogleAnalytisc.m
+-[GAIUtil init]
++[GAIUtil descriptionFromException:]
++[GAIUtil descriptionFromError:]
++[GAIUtil valueForNumber:]
++[GAIUtil valueForString:]
+Apple LLVM version 7.3.0 (clang-703.0.31)
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAIUtil.m
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library
++[GAIEcommerceFields stripAmpersandIfPresent:]
++[GAIEcommerceFields productFieldForIndex:suffix:]
++[GAIEcommerceFields impressionListForIndex:]
++[GAIEcommerceFields productImpressionForList:index:suffix:]
++[GAIEcommerceFields promotionForIndex:suffix:]
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAIEcommerceFields.m
+-[GAIDefaultLogger init]
+-[GAIDefaultLogger verbose:]
+-[GAIDefaultLogger info:]
+-[GAIDefaultLogger warning:]
+-[GAIDefaultLogger error:]
+-[GAIDefaultLogger logLevel]
+-[GAIDefaultLogger setLogLevel:]
+_OBJC_IVAR_$_GAIDefaultLogger._logLevel
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_GAILogger
+l_OBJC_LABEL_PROTOCOL_$_GAILogger
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAIDefaultLogger.m
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAIDefaultLogger.h
+-[GAI defaultTracker]
+-[GAI setDefaultTracker:]
+-[GAI clientId]
+-[GAI dispatchInterval]
+-[GAI setDispatchInterval:]
+-[GAI trackUncaughtExceptions]
+-[GAI setTrackUncaughtExceptions:]
+-[GAI createDispatcher:]
+-[GAI init]
++[GAI sharedInstance]
++[GAI allocWithZone:]
+-[GAI retain]
+-[GAI retainCount]
+-[GAI release]
+-[GAI autorelease]
+-[GAI copyWithZone:]
+-[GAI trackerWithName:trackingId:]
+-[GAI trackerWithTrackingId:]
++[GAI sharedLogger]
+-[GAI dispatch]
+-[GAI dispatchWithCompletionHandler:]
+-[GAI dispatcher]
+-[GAI removeTrackerByName:]
++[GAI threadMain:]
++[GAI thread]
+___13+[GAI thread]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[GAI setDryRun:]
+-[GAI dryRun]
+-[GAI optOut]
+-[GAI setOptOut:]
+-[GAI setUrlConnectionClass:]
+-[GAI logger]
+-[GAI setLogger:]
+-[GAI setDispatcher:]
+-[GAI trackers]
+-[GAI setTrackers:]
+-[GAI trackerImplClass]
+-[GAI setTrackerImplClass:]
+-[GAI urlConnectionClass]
+_OBJC_IVAR_$_GAI.defaultTracker_
+_OBJC_IVAR_$_GAI.trackUncaughtExceptions_
+_OBJC_IVAR_$_GAI.dispatcher_
+_OBJC_IVAR_$_GAI.trackerImplClass_
+_OBJC_IVAR_$_GAI._urlConnectionClass
+_OBJC_IVAR_$_GAI.trackers_
+_OBJC_IVAR_$_GAI.logger_
+_sSharedInstance
+_thread._thread
+_thread.oncePredicate
+___block_descriptor_tmp
+_OBJC_IVAR_$_GAI._dryRun
+_OBJC_IVAR_$_GAI._optOut
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAI.m
+__destroy_helper_block_
+__copy_helper_block_
+__13+[GAI thread]_block_invoke
+/Applications/Xcode/7.3.1/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/dispatch/once.h
+-[GAITrackerImpl init]
+-[GAITrackerImpl initWithDispatcher:name:]
+-[GAITrackerImpl dealloc]
++[GAITrackerImpl trackerWithDispatcher:name:]
+-[GAITrackerImpl shouldRateLimit]
+-[GAITrackerImpl gai_set:value:]
+-[GAITrackerImpl gai_get:]
+-[GAITrackerImpl gai_set:]
+-[GAITrackerImpl gai_send:]
+-[GAITrackerImpl get:]
+-[GAITrackerImpl set:value:]
+-[GAITrackerImpl send:]
+-[GAITrackerImpl name]
+-[GAITrackerImpl setAllowIDFACollection:]
+-[GAITrackerImpl dispatcher]
+-[GAITrackerImpl setDispatcher:]
+-[GAITrackerImpl trackingCredits]
+-[GAITrackerImpl setTrackingCredits:]
+-[GAITrackerImpl lastTrackTime]
+-[GAITrackerImpl setLastTrackTime:]
+-[GAITrackerImpl model]
+-[GAITrackerImpl setModel:]
+-[GAITrackerImpl allowIDFACollection]
+-[GAITrackerImpl trackCount]
+-[GAITrackerImpl setTrackCount:]
+-[GAITrackerImpl hitCount]
+-[GAITrackerImpl setHitCount:]
+-[GAITrackerImpl usageTracker]
+-[GAITrackerImpl setUsageTracker:]
+_OBJC_IVAR_$_GAITrackerImpl._usageTracker
+_OBJC_IVAR_$_GAITrackerImpl.dispatcher_
+_OBJC_IVAR_$_GAITrackerImpl.name_
+_OBJC_IVAR_$_GAITrackerImpl.model_
+_OBJC_IVAR_$_GAITrackerImpl.allowIDFACollection_
+_OBJC_IVAR_$_GAITrackerImpl.trackingCredits_
+_OBJC_IVAR_$_GAITrackerImpl.lastTrackTime_
+_OBJC_IVAR_$_GAITrackerImpl._trackCount
+_OBJC_IVAR_$_GAITrackerImpl._hitCount
+l_OBJC_PROTOCOL_$_GAITracker
+l_OBJC_LABEL_PROTOCOL_$_GAITracker
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAITrackerImpl.m
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAITracker.h
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAITrackerImpl.h
+-[GAIDataStore requestEntityName:]
+-[GAIDataStore requestHitsWithLimit:]
+-[GAIDataStore requestPropertyWithName:]
+-[GAIDataStore oldHitDescription:]
++[GAIDataStore databaseFullPath:]
++[GAIDataStore databaseFullURL:]
+-[GAIDataStore deleteExcessHits:]
+-[GAIDataStore context:hitCount:]
+___33-[GAIDataStore context:hitCount:]_block_invoke
+-[GAIDataStore context:removeStaleHits:]
+___40-[GAIDataStore context:removeStaleHits:]_block_invoke
+___copy_helper_block_.116
+___destroy_helper_block_.117
++[GAIDataStore thread]
+-[GAIDataStore gai_performBlockHelper:]
+-[GAIDataStore performBlockAndWait:withError:]
+-[GAIDataStore coordinatorWithModel:URL:]
+-[GAIDataStore contextWithModel:URL:]
+-[GAIDataStore setProperty:numberValue:withError:]
+-[GAIDataStore setProperty:stringValue:withError:]
+-[GAIDataStore lastChangeTimeStamp]
+___35-[GAIDataStore lastChangeTimeStamp]_block_invoke
+___copy_helper_block_.205
+___destroy_helper_block_.206
+-[GAIDataStore setLastChangeTimeStamp:]
+___39-[GAIDataStore setLastChangeTimeStamp:]_block_invoke
+___copy_helper_block_.210
+___destroy_helper_block_.211
+-[GAIDataStore idfaChangeCount]
+___31-[GAIDataStore idfaChangeCount]_block_invoke
+___copy_helper_block_.213
+___destroy_helper_block_.214
+-[GAIDataStore setIdfaChangeCount:]
+___35-[GAIDataStore setIdfaChangeCount:]_block_invoke
+___copy_helper_block_.216
+___destroy_helper_block_.217
+-[GAIDataStore hashedIdfa]
+___26-[GAIDataStore hashedIdfa]_block_invoke
+___copy_helper_block_.219
+___destroy_helper_block_.220
+-[GAIDataStore setHashedIdfa:]
+___30-[GAIDataStore setHashedIdfa:]_block_invoke
+___copy_helper_block_.226
+___destroy_helper_block_.227
+-[GAIDataStore clientId]
+___24-[GAIDataStore clientId]_block_invoke
+___copy_helper_block_.229
+___destroy_helper_block_.230
+-[GAIDataStore fetchClientId]
+___29-[GAIDataStore fetchClientId]_block_invoke
+___copy_helper_block_.234
+___destroy_helper_block_.235
+-[GAIDataStore setClientId:]
+___28-[GAIDataStore setClientId:]_block_invoke
+___copy_helper_block_.237
+___destroy_helper_block_.238
+-[GAIDataStore hitCount:]
+___25-[GAIDataStore hitCount:]_block_invoke
+___copy_helper_block_.244
+___destroy_helper_block_.245
+-[GAIDataStore addHit:]
+___23-[GAIDataStore addHit:]_block_invoke
+___copy_helper_block_.253
+___destroy_helper_block_.254
+-[GAIDataStore fetchHitsWithLimit:error:]
+___41-[GAIDataStore fetchHitsWithLimit:error:]_block_invoke
+___41-[GAIDataStore fetchHitsWithLimit:error:]_block_invoke_2
+___copy_helper_block_.262
+___destroy_helper_block_.263
+___copy_helper_block_.275
+___destroy_helper_block_.276
+-[GAIDataStore deleteHitsWithIds:error:]
+___40-[GAIDataStore deleteHitsWithIds:error:]_block_invoke
+___copy_helper_block_.280
+___destroy_helper_block_.281
+-[GAIDataStore deleteAllHits:]
+___30-[GAIDataStore deleteAllHits:]_block_invoke
+___copy_helper_block_.285
+___destroy_helper_block_.286
+-[GAIDataStore save:]
+___21-[GAIDataStore save:]_block_invoke
+___copy_helper_block_.292
+___destroy_helper_block_.293
+-[GAIDataStore init]
+-[GAIDataStore setUpCoreData]
+___29-[GAIDataStore setUpCoreData]_block_invoke
+___copy_helper_block_.322
+___destroy_helper_block_.323
+___29-[GAIDataStore setUpCoreData]_block_invoke.325
+___copy_helper_block_.326
+___destroy_helper_block_.327
+___29-[GAIDataStore setUpCoreData]_block_invoke.329
+___copy_helper_block_.330
+___destroy_helper_block_.331
+-[GAIDataStore onExit:]
+-[GAIDataStore dealloc]
++[GAIDataStore dataStore]
+-[GAIDataStore maxHitCount]
+-[GAIDataStore setMaxHitCount:]
+-[GAIDataStore oldContext]
+-[GAIDataStore setOldContext:]
+-[GAIDataStore context]
+-[GAIDataStore setContext:]
+-[GAIDataStore currentContext]
+-[GAIDataStore setCurrentContext:]
+-[GAIDataStore .cxx_destruct]
+___block_descriptor_tmp.118
+_OBJC_IVAR_$_GAIDataStore._currentContext
+_OBJC_IVAR_$_GAIDataStore._lastChangeTimeStamp
+___block_descriptor_tmp.207
+___block_descriptor_tmp.212
+_OBJC_IVAR_$_GAIDataStore._idfaChangeCount
+___block_descriptor_tmp.215
+___block_descriptor_tmp.218
+_OBJC_IVAR_$_GAIDataStore._hashedIdfa
+___block_descriptor_tmp.221
+___block_descriptor_tmp.228
+_OBJC_IVAR_$_GAIDataStore._clientId
+___block_descriptor_tmp.231
+___block_descriptor_tmp.236
+___block_descriptor_tmp.239
+_OBJC_IVAR_$_GAIDataStore._context
+___block_descriptor_tmp.246
+___block_descriptor_tmp.255
+_kNumChanges_block_invoke.keys
+_kNumChanges_block_invoke.onceToken
+___block_descriptor_tmp.265
+___block_descriptor_tmp.277
+___block_descriptor_tmp.282
+_OBJC_IVAR_$_GAIDataStore._oldContext
+___block_descriptor_tmp.287
+___block_descriptor_tmp.294
+_OBJC_IVAR_$_GAIDataStore._maxHitCount
+_OBJC_IVAR_$_GAIDataStore._setUpCoreData
+___block_descriptor_tmp.324
+___block_descriptor_tmp.328
+___block_descriptor_tmp.332
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAIDataStore.m
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAIDataStore.h
+__29-[GAIDataStore setUpCoreData]_block_invoke.329
+__29-[GAIDataStore setUpCoreData]_block_invoke.325
+__29-[GAIDataStore setUpCoreData]_block_invoke
+__21-[GAIDataStore save:]_block_invoke
+__30-[GAIDataStore deleteAllHits:]_block_invoke
+__40-[GAIDataStore deleteHitsWithIds:error:]_block_invoke
+__41-[GAIDataStore fetchHitsWithLimit:error:]_block_invoke_2
+__41-[GAIDataStore fetchHitsWithLimit:error:]_block_invoke
+__23-[GAIDataStore addHit:]_block_invoke
+__25-[GAIDataStore hitCount:]_block_invoke
+__28-[GAIDataStore setClientId:]_block_invoke
+__29-[GAIDataStore fetchClientId]_block_invoke
+__24-[GAIDataStore clientId]_block_invoke
+__30-[GAIDataStore setHashedIdfa:]_block_invoke
+__26-[GAIDataStore hashedIdfa]_block_invoke
+__35-[GAIDataStore setIdfaChangeCount:]_block_invoke
+__31-[GAIDataStore idfaChangeCount]_block_invoke
+__39-[GAIDataStore setLastChangeTimeStamp:]_block_invoke
+__35-[GAIDataStore lastChangeTimeStamp]_block_invoke
+__40-[GAIDataStore context:removeStaleHits:]_block_invoke
+__33-[GAIDataStore context:hitCount:]_block_invoke
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAIHitFormat.m
+-[GAICoreDataUtil init]
++[GAICoreDataUtil model]
++[GAICoreDataUtil oldModel]
++[GAICoreDataUtil entityWithDescription:]
++[GAICoreDataUtil modelWithDescription:]
++[GAICoreDataUtil modelDescription]
++[GAICoreDataUtil oldModelDescription]
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAICoreDataUtil.m
+-[GAIHitUtil init]
++[GAIHitUtil systemLanguageFromLanguages:]
++[GAIHitUtil systemCountryFromLocale:]
++[GAIHitUtil userAgentStringWithProduct:version:deviceModel:systemName:systemVersion:systemLanguage:systemCountry:]
++[GAIHitUtil userAgentString]
++[GAIHitUtil systemLanguage]
++[GAIHitUtil systemCountry]
++[GAIHitUtil deviceModelVersion]
+___32+[GAIHitUtil deviceModelVersion]_block_invoke
++[GAIHitUtil systemScreenResolution]
++[GAIHitUtil swapDimensionsOfRect:]
++[GAIHitUtil systemScreenColorDepth]
++[GAIHitUtil millisecondsElapsedFrom:To:]
++[GAIHitUtil gaHash:]
+___21+[GAIHitUtil gaHash:]_block_invoke
++[GAIHitUtil generateClientId]
++[GAIHitUtil hashIdfa:clientId:]
+_deviceModelVersion.deviceString
+_deviceModelVersion.sysctlOnce
+___block_literal_global
+___block_descriptor_tmp.71
+-[GAIRequestBuilder init]
+-[GAIRequestBuilder dealloc]
+-[GAIRequestBuilder encodeParameter:withValue:]
+-[GAIRequestBuilder encodeParameters:]
+-[GAIRequestBuilder parameterValueToString:]
+-[GAIRequestBuilder parametersForHit:]
+___38-[GAIRequestBuilder parametersForHit:]_block_invoke
+-[GAIRequestBuilder baseRequest]
+-[GAIRequestBuilder requestPostUrl:payload:compression:]
+-[GAIRequestBuilder requestGetUrl:payload:]
+-[GAIRequestBuilder userAgent]
+-[GAIRequestBuilder setUserAgent:]
+_OBJC_IVAR_$_GAIRequestBuilder.userAgent_
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAIRequestBuilder.m
+__38-[GAIRequestBuilder parametersForHit:]_block_invoke
++[GAIStringUtil urlParams:]
+-[GAIStringUtil init]
++[GAIStringUtil trim:]
++[GAIStringUtil intString:]
++[GAIStringUtil uintString:]
++[GAIStringUtil decimalString:decimals:]
++[GAIStringUtil currencyMicrosString:]
++[GAIStringUtil percentEncode:]
++[GAIStringUtil percentDecode:]
++[GAIStringUtil decodeParametersFromQuery:]
++[GAIStringUtil decodeParametersFromUrl:]
++[GAIStringUtil stripLeadingAmpersand:]
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAIStringUtil.m
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAICampaign.m
++[GAIURLConnection setDryRun:]
++[GAIURLConnection dryRun]
+-[GAIURLConnection dealloc]
+-[GAIURLConnection init]
+-[GAIURLConnection initWithRequest:completionQueue:completionHandler:]
+-[GAIURLConnection start]
+-[GAIURLConnection cancel]
+-[GAIURLConnection connection:didFailWithError:]
+___48-[GAIURLConnection connection:didFailWithError:]_block_invoke
+-[GAIURLConnection connection:willSendRequest:redirectResponse:]
+-[GAIURLConnection connection:willCacheResponse:]
+-[GAIURLConnection connection:didReceiveData:]
+-[GAIURLConnection connection:didReceiveResponse:]
+-[GAIURLConnection connectionDidFinishLoading:]
+___47-[GAIURLConnection connectionDidFinishLoading:]_block_invoke
+___copy_helper_block_.36
+___destroy_helper_block_.37
+-[GAIURLConnection request]
+-[GAIURLConnection setRequest:]
+-[GAIURLConnection connection]
+-[GAIURLConnection setConnection:]
+-[GAIURLConnection response]
+-[GAIURLConnection setResponse:]
+-[GAIURLConnection data]
+-[GAIURLConnection setData:]
+-[GAIURLConnection completionQueue]
+-[GAIURLConnection setCompletionQueue:]
+-[GAIURLConnection completionHandler]
+-[GAIURLConnection setCompletionHandler:]
+__dryRun
+_OBJC_IVAR_$_GAIURLConnection.request_
+_OBJC_IVAR_$_GAIURLConnection.connection_
+_OBJC_IVAR_$_GAIURLConnection.response_
+_OBJC_IVAR_$_GAIURLConnection.data_
+_OBJC_IVAR_$_GAIURLConnection.completionQueue_
+_OBJC_IVAR_$_GAIURLConnection.completionHandler_
+___block_descriptor_tmp.38
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAIURLConnection.m
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAIURLConnection.h
+__47-[GAIURLConnection connectionDidFinishLoading:]_block_invoke
+__48-[GAIURLConnection connection:didFailWithError:]_block_invoke
+-[GAIReachabilityChecker reachabilityApi]
+-[GAIReachabilityChecker setReachabilityApi:]
+-[GAIReachabilityChecker isActive]
+-[GAIReachabilityChecker setDelegate:]
+-[GAIReachabilityChecker init]
+-[GAIReachabilityChecker initWithDelegate:withHost:]
+-[GAIReachabilityChecker dealloc]
+-[GAIReachabilityChecker start]
+_ReachabilityCallback
+-[GAIReachabilityChecker stop]
+-[GAIReachabilityChecker statusForFlags:]
+-[GAIReachabilityChecker reachabilityFlagsChanged:]
+-[GAIReachabilityChecker reachability]
+-[GAIReachabilityChecker setReachability:]
+-[GAIReachabilityChecker reachabilityStatus]
+-[GAIReachabilityChecker setReachabilityStatus:]
+-[GAIReachabilityChecker host]
+-[GAIReachabilityChecker setHost:]
+-[GAIReachabilityChecker delegate]
+-[GAIReachabilityChecker .cxx_destruct]
+_OBJC_IVAR_$_GAIReachabilityChecker.reachabilityApi_
+_OBJC_IVAR_$_GAIReachabilityChecker.reachability_
+l_OBJC_PROTOCOL_$_GAIReachabilityDelegate
+l_OBJC_LABEL_PROTOCOL_$_GAIReachabilityDelegate
+l_OBJC_PROTOCOL_REFERENCE_$_GAIReachabilityDelegate
+_OBJC_IVAR_$_GAIReachabilityChecker.delegate_
+_kDefaultReachabilityApi
+_OBJC_IVAR_$_GAIReachabilityChecker.reachabilityStatus_
+_OBJC_IVAR_$_GAIReachabilityChecker.host_
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAIReachabilityChecker.m
+GAIReachabilityStatusString
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAIReachabilityChecker.h
+ReachabilityCallback
+_previousHandler
+_GAIUncaughtExceptionHandler.insideExceptionHandler
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAIUncaughtExceptionHandler.m
+GAIUninstallUncaughtExceptionHandler
+GAIUncaughtExceptionHandler
+GAIInstallUncaughtExceptionHandler
+-[GAIExceptionParser init]
++[GAIExceptionParser symbolFromStackFrame:]
++[GAIExceptionParser exceptionDescription:withMaxLength:]
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAIExceptionParser.m
++[GAIFields contentGroupForIndex:]
++[GAIFields customDimensionForIndex:]
++[GAIFields customMetricForIndex:]
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAIFields.m
+-[GAIDictionaryBuilder init]
++[GAIDictionaryBuilder valueForNumber:]
++[GAIDictionaryBuilder valueForString:]
+-[GAIDictionaryBuilder set:forKey:]
+-[GAIDictionaryBuilder gai_set:forKey:]
+-[GAIDictionaryBuilder setAll:]
+-[GAIDictionaryBuilder get:]
+-[GAIDictionaryBuilder build]
+-[GAIDictionaryBuilder setCampaignParametersFromUrl:]
++[GAIDictionaryBuilder createAppView]
++[GAIDictionaryBuilder createScreenView]
++[GAIDictionaryBuilder createEventWithCategory:action:label:value:]
++[GAIDictionaryBuilder gai_exceptionWithDescription:withFatal:]
++[GAIDictionaryBuilder createExceptionWithDescription:withFatal:]
++[GAIDictionaryBuilder createItemWithTransactionId:name:sku:category:price:quantity:currencyCode:]
++[GAIDictionaryBuilder createSocialWithNetwork:action:target:]
++[GAIDictionaryBuilder createTimingWithCategory:interval:name:label:]
++[GAIDictionaryBuilder createTransactionWithId:affiliation:revenue:tax:shipping:currencyCode:]
+-[GAIDictionaryBuilder setProductAction:]
+-[GAIDictionaryBuilder addProduct:]
+-[GAIDictionaryBuilder addProductImpression:impressionList:impressionSource:]
+-[GAIDictionaryBuilder addPromotion:]
+-[GAIDictionaryBuilder parameters]
+-[GAIDictionaryBuilder setParameters:]
+-[GAIDictionaryBuilder impressionLists]
+-[GAIDictionaryBuilder setImpressionLists:]
+-[GAIDictionaryBuilder impressionListNames]
+-[GAIDictionaryBuilder setImpressionListNames:]
+-[GAIDictionaryBuilder impressionListSources]
+-[GAIDictionaryBuilder setImpressionListSources:]
+-[GAIDictionaryBuilder products]
+-[GAIDictionaryBuilder setProducts:]
+-[GAIDictionaryBuilder promotions]
+-[GAIDictionaryBuilder setPromotions:]
+-[GAIDictionaryBuilder pAction]
+-[GAIDictionaryBuilder setPAction:]
+-[GAIDictionaryBuilder .cxx_destruct]
+_OBJC_IVAR_$_GAIDictionaryBuilder._parameters
+_OBJC_IVAR_$_GAIDictionaryBuilder._impressionLists
+_OBJC_IVAR_$_GAIDictionaryBuilder._impressionListNames
+_OBJC_IVAR_$_GAIDictionaryBuilder._impressionListSources
+_OBJC_IVAR_$_GAIDictionaryBuilder._products
+_OBJC_IVAR_$_GAIDictionaryBuilder._promotions
+_OBJC_IVAR_$_GAIDictionaryBuilder._pAction
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAIDictionaryBuilder.m
+-[GAITrackerModel buildDictionary]
+-[GAITrackerModel willSendScreenView]
++[GAITrackerModel initialize]
+-[GAITrackerModel forcedParameters]
+-[GAITrackerModel requiredParameters]
+-[GAITrackerModel methodsForKeys]
+-[GAITrackerModel defaultParameters]
+-[GAITrackerModel crc]
+-[GAITrackerModel clientId]
+-[GAITrackerModel deviceModelVersion]
+-[GAITrackerModel screenResolution]
+-[GAITrackerModel language]
+-[GAITrackerModel dataSource]
+-[GAITrackerModel cacheBuster]
+___30-[GAITrackerModel cacheBuster]_block_invoke
+-[GAITrackerModel idfa]
+-[GAITrackerModel adTargetingEnabled]
+-[GAITrackerModel admobId]
+-[GAITrackerModel copyWithZone:]
+-[GAITrackerModel copyWithOverride:]
+-[GAITrackerModel init]
+-[GAITrackerModel initWithDataStore:]
+-[GAITrackerModel objectForKeyedSubscript:]
+-[GAITrackerModel setObject:forKeyedSubscript:]
+-[GAITrackerModel valueForKey:]
+-[GAITrackerModel valueForUndefinedKey:]
+-[GAITrackerModel setValue:forKey:]
+-[GAITrackerModel allowIDFACollection]
+-[GAITrackerModel setAllowIDFACollection:]
+-[GAITrackerModel parameters]
+-[GAITrackerModel setParameters:]
+-[GAITrackerModel dataStore]
+-[GAITrackerModel setDataStore:]
+-[GAITrackerModel .cxx_destruct]
+__adMobHitId
+__forcedParameters
+__actualAdIdAccessClass
+__defaultParameters
+__methodsForKeys
+__methodForKeysArray
+__requiredParameters
+_OBJC_IVAR_$_GAITrackerModel._dataStore
+_cacheBuster.onceToken
+_cacheBuster.cacheBuster
+_OBJC_IVAR_$_GAITrackerModel._parameters
+_OBJC_IVAR_$_GAITrackerModel._allowIDFACollection
+l_OBJC_PROTOCOL_$_NSCopying
+l_OBJC_LABEL_PROTOCOL_$_NSCopying
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAITrackerModel.m
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAITrackerModel.h
+__30-[GAITrackerModel cacheBuster]_block_invoke
+-[GAIBatchingDispatcher setTimer:]
+-[GAIBatchingDispatcher setDispatchInterval:]
+-[GAIBatchingDispatcher setHostReachable:]
+-[GAIBatchingDispatcher hasHits]
+-[GAIBatchingDispatcher setHasHits:]
+-[GAIBatchingDispatcher reachability:statusChanged:]
+-[GAIBatchingDispatcher observeValueForKeyPath:ofObject:change:context:]
+-[GAIBatchingDispatcher didSendHits:response:data:error:]
+-[GAIBatchingDispatcher didSendHits:]
+-[GAIBatchingDispatcher init]
+-[GAIBatchingDispatcher initWithDataStore:]
+___43-[GAIBatchingDispatcher initWithDataStore:]_block_invoke
+-[GAIBatchingDispatcher setupBatching]
+-[GAIBatchingDispatcher dealloc]
+-[GAIBatchingDispatcher cancelPerformRequests]
+-[GAIBatchingDispatcher batchByTimeGap:maxHits:]
+-[GAIBatchingDispatcher batchBySessionSplit:maxHits:]
+-[GAIBatchingDispatcher hitsForDispatch]
+___40-[GAIBatchingDispatcher hitsForDispatch]_block_invoke
+-[GAIBatchingDispatcher nextPendingHits]
+-[GAIBatchingDispatcher persist:]
+-[GAIBatchingDispatcher deleteHits:]
+-[GAIBatchingDispatcher deleteAllHits]
+-[GAIBatchingDispatcher clientId]
+-[GAIBatchingDispatcher dispatch]
+-[GAIBatchingDispatcher dispatchWithCompletionHandler:]
+___55-[GAIBatchingDispatcher dispatchWithCompletionHandler:]_block_invoke
+___copy_helper_block_.259
+___destroy_helper_block_.260
+-[GAIBatchingDispatcher buildPayload:]
+-[GAIBatchingDispatcher queueModel:]
+-[GAIBatchingDispatcher queueDispatch:]
++[GAIBatchingDispatcher dispatcher]
+-[GAIBatchingDispatcher checkIAdCampaignAttributionWithHitParameters:]
+___70-[GAIBatchingDispatcher checkIAdCampaignAttributionWithHitParameters:]_block_invoke
+___70-[GAIBatchingDispatcher checkIAdCampaignAttributionWithHitParameters:]_block_invoke_2
+___70-[GAIBatchingDispatcher checkIAdCampaignAttributionWithHitParameters:]_block_invoke_3
+___copy_helper_block_.340
+___destroy_helper_block_.341
+___70-[GAIBatchingDispatcher checkIAdCampaignAttributionWithHitParameters:]_block_invoke.348
+___copy_helper_block_.349
+___destroy_helper_block_.350
+-[GAIBatchingDispatcher handleCampaignResult:campaignHitParameters:]
+-[GAIBatchingDispatcher adClientInstance]
+-[GAIBatchingDispatcher insertHitTime:hitParameters:]
+-[GAIBatchingDispatcher determineHitTime:]
+-[GAIBatchingDispatcher buildIAdCampaignHitWithHitParameters:]
+-[GAIBatchingDispatcher sendIAdCampaignHit:]
++[GAIBatchingDispatcher thread]
+-[GAIBatchingDispatcher rescheduleIfNeeded:withObject:andWait:]
+-[GAIBatchingDispatcher initialDispatch]
+-[GAIBatchingDispatcher cancelDispatch]
+-[GAIBatchingDispatcher canDispatch]
+-[GAIBatchingDispatcher canScheduleDispatch]
+-[GAIBatchingDispatcher timerFired]
+-[GAIBatchingDispatcher rescheduleDispatch]
+-[GAIBatchingDispatcher optOut]
+-[GAIBatchingDispatcher setOptOut:]
+-[GAIBatchingDispatcher batchingStrategy]
+-[GAIBatchingDispatcher setBatchingStrategy:]
+-[GAIBatchingDispatcher compressionStrategy]
+-[GAIBatchingDispatcher setCompressionStrategy:]
+-[GAIBatchingDispatcher dispatchInterval]
+-[GAIBatchingDispatcher dataStore]
+-[GAIBatchingDispatcher setDataStore:]
+-[GAIBatchingDispatcher propertiesStore]
+-[GAIBatchingDispatcher setPropertiesStore:]
+-[GAIBatchingDispatcher requestBuilder]
+-[GAIBatchingDispatcher urlConnectionClass]
+-[GAIBatchingDispatcher setUrlConnectionClass:]
+-[GAIBatchingDispatcher maxHitsPerDispatch]
+-[GAIBatchingDispatcher setMaxHitsPerDispatch:]
+-[GAIBatchingDispatcher maxHitAge]
+-[GAIBatchingDispatcher setMaxHitAge:]
+-[GAIBatchingDispatcher maxBodySize]
+-[GAIBatchingDispatcher setMaxBodySize:]
+-[GAIBatchingDispatcher maxHitSize]
+-[GAIBatchingDispatcher setMaxHitSize:]
+-[GAIBatchingDispatcher reachability]
+-[GAIBatchingDispatcher setReachability:]
+-[GAIBatchingDispatcher hostReachable]
+-[GAIBatchingDispatcher httpURL]
+-[GAIBatchingDispatcher setHttpURL:]
+-[GAIBatchingDispatcher httpsURL]
+-[GAIBatchingDispatcher setHttpsURL:]
+-[GAIBatchingDispatcher httpBatchURL]
+-[GAIBatchingDispatcher setHttpBatchURL:]
+-[GAIBatchingDispatcher httpsBatchURL]
+-[GAIBatchingDispatcher setHttpsBatchURL:]
+-[GAIBatchingDispatcher connection]
+-[GAIBatchingDispatcher setConnection:]
+-[GAIBatchingDispatcher timer]
+-[GAIBatchingDispatcher batchFailedTime]
+-[GAIBatchingDispatcher setBatchFailedTime:]
+-[GAIBatchingDispatcher serverBatchingDisabled]
+-[GAIBatchingDispatcher setServerBatchingDisabled:]
+-[GAIBatchingDispatcher batchRetryInterval]
+-[GAIBatchingDispatcher setBatchRetryInterval:]
+-[GAIBatchingDispatcher defaultCompletionHandler]
+-[GAIBatchingDispatcher setDefaultCompletionHandler:]
+-[GAIBatchingDispatcher currentCompletionHandler]
+-[GAIBatchingDispatcher setCurrentCompletionHandler:]
+-[GAIBatchingDispatcher iAdCampaignTrackerIdCache]
+-[GAIBatchingDispatcher setIAdCampaignTrackerIdCache:]
+-[GAIBatchingDispatcher .cxx_destruct]
+_kOptOutKeyPath
+_OBJC_IVAR_$_GAIBatchingDispatcher._timer
+_OBJC_IVAR_$_GAIBatchingDispatcher._dispatchInterval
+_OBJC_IVAR_$_GAIBatchingDispatcher._hostReachable
+_OBJC_IVAR_$_GAIBatchingDispatcher._hasHits
+_OBJC_IVAR_$_GAIBatchingDispatcher._connection
+_OBJC_IVAR_$_GAIBatchingDispatcher._dataStore
+_OBJC_IVAR_$_GAIBatchingDispatcher._propertiesStore
+_OBJC_IVAR_$_GAIBatchingDispatcher._httpsURL
+_OBJC_IVAR_$_GAIBatchingDispatcher._httpURL
+_OBJC_IVAR_$_GAIBatchingDispatcher._httpBatchURL
+_OBJC_IVAR_$_GAIBatchingDispatcher._httpsBatchURL
+_OBJC_IVAR_$_GAIBatchingDispatcher._requestBuilder
+_OBJC_IVAR_$_GAIBatchingDispatcher._maxHitsPerDispatch
+_OBJC_IVAR_$_GAIBatchingDispatcher._maxHitAge
+_OBJC_IVAR_$_GAIBatchingDispatcher._maxBodySize
+_OBJC_IVAR_$_GAIBatchingDispatcher._maxHitSize
+_OBJC_IVAR_$_GAIBatchingDispatcher._iAdCampaignTrackerIdCache
+_OBJC_IVAR_$_GAIBatchingDispatcher._reachability
+_OBJC_IVAR_$_GAIBatchingDispatcher._defaultCompletionHandler
+_OBJC_IVAR_$_GAIBatchingDispatcher._compressionStrategy
+_OBJC_IVAR_$_GAIBatchingDispatcher._batchingStrategy
+_OBJC_IVAR_$_GAIBatchingDispatcher._serverBatchingDisabled
+_OBJC_IVAR_$_GAIBatchingDispatcher._batchRetryInterval
+___block_descriptor_tmp.137
+___block_descriptor_tmp.262
+_OBJC_IVAR_$_GAIBatchingDispatcher._urlConnectionClass
+_checkIAdCampaignAttributionWithHitParameters:.onceToken
+___block_descriptor_tmp.315
+_checkIAdCampaignAttributionWithHitParameters:.onceToken.323
+___block_descriptor_tmp.326
+___block_literal_global.327
+___block_descriptor_tmp.343
+___block_descriptor_tmp.352
+_OBJC_IVAR_$_GAIBatchingDispatcher._optOut
+_OBJC_IVAR_$_GAIBatchingDispatcher._batchFailedTime
+_OBJC_IVAR_$_GAIBatchingDispatcher._currentCompletionHandler
+l_OBJC_PROTOCOL_$_GAIDispatchSender
+l_OBJC_LABEL_PROTOCOL_$_GAIDispatchSender
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAIBatchingDispatcher.m
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAIBatchingDispatcher.h
+__70-[GAIBatchingDispatcher checkIAdCampaignAttributionWithHitParameters:]_block_invoke.348
+__70-[GAIBatchingDispatcher checkIAdCampaignAttributionWithHitParameters:]_block_invoke_3
+__70-[GAIBatchingDispatcher checkIAdCampaignAttributionWithHitParameters:]_block_invoke_2
+__70-[GAIBatchingDispatcher checkIAdCampaignAttributionWithHitParameters:]_block_invoke
+__55-[GAIBatchingDispatcher dispatchWithCompletionHandler:]_block_invoke
+__40-[GAIBatchingDispatcher hitsForDispatch]_block_invoke
+NSMakeRange
+/Applications/Xcode/7.3.1/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+__43-[GAIBatchingDispatcher initWithDataStore:]_block_invoke
++[GAIUsageTracker initialize]
++[GAIUsageTracker trackTarget:action:]
++[GAIUsageTracker trackAction:]
++[GAIUsageTracker getUsageSequence]
+-[GAIUsageTracker trackAction:]
+__usageSequence
+__mapping
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAIUsageTracker.m
++[GAISqlStore sharedInstance]
+___29+[GAISqlStore sharedInstance]_block_invoke
++[GAISqlStore databaseDirectoryPath]
+___36+[GAISqlStore databaseDirectoryPath]_block_invoke
+-[GAISqlStore initWithDatabaseName:]
+-[GAISqlStore dealloc]
+-[GAISqlStore rowCountForTableWithName:]
+-[GAISqlStore setStatement:forQuery:]
+-[GAISqlStore statementForQuery:]
+-[GAISqlStore removeStatementForQuery:]
+-[GAISqlStore finalizeAndClearStatements]
+-[GAISqlStore ensureOpenDatabase]
+-[GAISqlStore openAndValidateDatabase]
+-[GAISqlStore closeDatabase]
+-[GAISqlStore closeAndDeleteDatabase]
+-[GAISqlStore tableExists:]
+-[GAISqlStore dropTableWithName:]
+-[GAISqlStore errorMessage]
+-[GAISqlStore prepareSql:]
+-[GAISqlStore executeSql:]
+-[GAISqlStore databaseName]
+-[GAISqlStore database]
+-[GAISqlStore setDatabase:]
+-[GAISqlStore statementCache]
+-[GAISqlStore setStatementCache:]
+-[GAISqlStore databasePath]
+-[GAISqlStore .cxx_destruct]
+_sharedInstance.sharedInstance
+_sharedInstance.onceToken
+_databaseDirectoryPath.basePath
+_databaseDirectoryPath.onceToken
+___block_descriptor_tmp.8
+_OBJC_IVAR_$_GAISqlStore._databaseName
+_OBJC_IVAR_$_GAISqlStore._databasePath
+_OBJC_IVAR_$_GAISqlStore._statementCache
+_OBJC_IVAR_$_GAISqlStore._database
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAISqlStore.m
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAISqlStore.h
+__36+[GAISqlStore databaseDirectoryPath]_block_invoke
+__29+[GAISqlStore sharedInstance]_block_invoke
++[GAICompressionUtil gai_dataByCompressingBytes:length:compressionLevel:mode:]
++[GAICompressionUtil gai_dataByInflatingBytes:length:isRawData:]
++[GAICompressionUtil gai_dataByGzippingBytes:length:]
++[GAICompressionUtil gai_dataByGzippingData:]
++[GAICompressionUtil gai_dataByGzippingBytes:length:compressionLevel:]
++[GAICompressionUtil gai_dataByGzippingData:compressionLevel:]
++[GAICompressionUtil gai_dataByDeflatingBytes:length:]
++[GAICompressionUtil gai_dataByDeflatingData:]
++[GAICompressionUtil gai_dataByDeflatingBytes:length:compressionLevel:]
++[GAICompressionUtil gai_dataByDeflatingData:compressionLevel:]
++[GAICompressionUtil gai_dataByInflatingBytes:length:]
++[GAICompressionUtil gai_dataByInflatingData:]
++[GAICompressionUtil gai_dataByRawDeflatingBytes:length:]
++[GAICompressionUtil gai_dataByRawDeflatingData:]
++[GAICompressionUtil gai_dataByRawDeflatingBytes:length:compressionLevel:]
++[GAICompressionUtil gai_dataByRawDeflatingData:compressionLevel:]
++[GAICompressionUtil gai_dataByRawInflatingBytes:length:]
++[GAICompressionUtil gai_dataByRawInflatingData:]
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAICompressionUtil.m
++[GAIAnalyticsPropertiesStore sharedInstance]
+___45+[GAIAnalyticsPropertiesStore sharedInstance]_block_invoke
+-[GAIAnalyticsPropertiesStore initWithSqlStore:]
+-[GAIAnalyticsPropertiesStore buildPropertiesTableSchemaSql]
+-[GAIAnalyticsPropertiesStore buildPropertiesTableUpsertSql]
+-[GAIAnalyticsPropertiesStore dealloc]
+-[GAIAnalyticsPropertiesStore onOpenDatabase:]
+-[GAIAnalyticsPropertiesStore nextHitNumberForTrackingId:clientId:]
+-[GAIAnalyticsPropertiesStore trackerIdCount]
+-[GAIAnalyticsPropertiesStore storageLimit]
+-[GAIAnalyticsPropertiesStore upsertPropertyRecord:]
+-[GAIAnalyticsPropertiesStore bindRecord:toUpsertStatement:]
+-[GAIAnalyticsPropertiesStore isPropertiesTableFull]
+-[GAIAnalyticsPropertiesStore hasValidPropertyColumns]
+-[GAIAnalyticsPropertiesStore clearPropertiesTable]
+-[GAIAnalyticsPropertiesStore createOrValidatePropertiesTable]
+-[GAIAnalyticsPropertiesStore createPropertiesTable]
+-[GAIAnalyticsPropertiesStore createPropertyRecordWithTrackingId:clientId:hitNumber:checkedIAdCampaign:]
+-[GAIAnalyticsPropertiesStore propertyRecordForTrackingId:]
+-[GAIAnalyticsPropertiesStore selectStmtWithTrackingId:]
+-[GAIAnalyticsPropertiesStore setCheckedIAdCampaignForTrackingId:]
+-[GAIAnalyticsPropertiesStore sqlStore]
+-[GAIAnalyticsPropertiesStore setSqlStore:]
+-[GAIAnalyticsPropertiesStore propertiesTableColumns]
+-[GAIAnalyticsPropertiesStore propertiesTableSchemaSql]
+-[GAIAnalyticsPropertiesStore propertiesTableUpsertSql]
+-[GAIAnalyticsPropertiesStore .cxx_destruct]
+_OBJC_IVAR_$_GAIAnalyticsPropertiesStore._propertiesTableColumns
+_OBJC_IVAR_$_GAIAnalyticsPropertiesStore._propertiesTableSchemaSql
+_OBJC_IVAR_$_GAIAnalyticsPropertiesStore._propertiesTableUpsertSql
+_OBJC_IVAR_$_GAIAnalyticsPropertiesStore._sqlStore
+/Volumes/BuildData/pulse-data/agents/599758/recipes/1045484673/base/branches/tagmanager_ios_bagpipe_release_branch/google3/googlemac/iPhone/Analytics/Library/GAIAnalyticsPropertiesStore.m
+__45+[GAIAnalyticsPropertiesStore sharedInstance]_block_invoke
